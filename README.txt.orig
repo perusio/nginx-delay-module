@@ -1,0 +1,27 @@
+Delay module for nginx.
+
+This module allows to delay requests for a given time.
+
+Configuration directives:
+
+    delay <time>
+
+        Context: http, server, location
+        Default: 0
+
+        Delay requests for a given time.
+
+Usage:
+
+    location = /slow {
+        delay 10s;
+        ...
+    }
+
+Note that internal redirects (e.g. directory index ones) will trigger another
+delay.
+
+To compile nginx with delay module, use "--add-module <path>" option
+to nginx configure.
+
+Development of this module was sponsored by Openstat (http://www.openstat.com/).
