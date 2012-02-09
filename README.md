@@ -94,7 +94,7 @@ Inserts a delay of the specified duration when serving a request.
 
 ## Other possible uses
 
-One other possible use is for doing poor's man
+One other possible use is for doing poor man's
 [traffic shapping](https://en.wikipedia.org/wiki/Traffic_shaping).
 
 ## Opinionated scholium 
