@@ -2,7 +2,8 @@
 
 ## Introduction
 
-The `ngx_http_delay` module is [Maxim Dounin](http://mdounin.ru), member of the core
+The `ngx_http_delay` module is authored by
+[Maxim Dounin](http://mdounin.ru), member of the core
 [Nginx](http://nginx.org) team.
 
 Maxim mantains a mercurial
